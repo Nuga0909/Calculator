@@ -1,3 +1,51 @@
-body {
-    background-color: bisque;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-size: xx-large;
+}
+
+.container {
+  border: 1px solid rgb(54, 54, 54);
+  display: grid;
+  background-color: bisque;
+  width: 12rem;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2rem auto;
+}
+
+.item-screen {
+  background-color: aliceblue;
+  border: 1px solid;
+  border-radius: 3px;
+  text-align-last: end;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: xxx-large;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+}
+
+.btn {
+  background-color: burlywood;
+  border: 1px solid;
+  border-radius: 3px;
+  height: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 71px;
+}
+
+.item19 {
+  grid-column: 3 / 5;
+  width: -webkit-fill-available;
 }
